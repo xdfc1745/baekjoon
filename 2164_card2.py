@@ -1,8 +1,5 @@
 from collections import deque
 
-
-n = int(input())
-
 def deque_process(n):
     for i in range(1, n+1):
         deque.append(i)
@@ -19,4 +16,7 @@ def deque_rule(n):
         pow_val *= 2
     
     return pow_val - 2 * (pow_val - n)
+
+    
+n = int(input())
 print(deque_rule(n))
