@@ -1,4 +1,3 @@
-
 def recursion(n, cnt):
     intent = '____' * cnt
     print(intent+"\"재귀함수가 뭔가요?\"")
@@ -14,7 +13,8 @@ def recursion(n, cnt):
     print(intent+"라고 답변하였지.")
     return
 
-n = int(input())
+num = int(input())
 
 print("어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.")
-recursion(n+1, 0)
+
+recursion(num+1, 0)
